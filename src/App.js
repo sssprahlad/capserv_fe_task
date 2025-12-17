@@ -12,6 +12,7 @@ import { UserProvider } from "./Components/Context/AuthContext";
 import Dashboard from "./Components/Pages/Dashboard/Dashboard";
 import ProtectedRouter from "./Components/ProtectedRouter/ProtectedRouter";
 import { useState } from "react";
+import Footer from "./Components/Footer/Footer";
 function App() {
   const [snackbar, setSnackbar] = useState({
     open: false,
@@ -49,6 +50,7 @@ function App() {
               />
             </Route>
           </Routes>
+          <Footer />
         </Router>
       </UserProvider>
     </div>
