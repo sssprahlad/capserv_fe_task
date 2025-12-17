@@ -6,8 +6,9 @@ import { useEffect, useState } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { MdOutlineCancel } from "react-icons/md";
 import { MdOutlinePending } from "react-icons/md";
+import Footer from "../../Footer/Footer";
 
-const Dashboard = ({setSnackbar, snackbar}) => {
+const Dashboard = ({ setSnackbar, snackbar }) => {
   const [status, setStatus] = useState("All Status");
   const [loanType, setLoanType] = useState("All Types");
   const [filterData, setFilterData] = useState([]);
@@ -190,6 +191,7 @@ const Dashboard = ({setSnackbar, snackbar}) => {
           </tbody>
         </table>
       </div>
+      <Footer />
     </div>
   );
 };
