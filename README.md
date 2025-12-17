@@ -30,8 +30,8 @@
 
 ### Register Your custom user with following details
 
-1.Username: your name
-2.Email: your email
-3.Password: your password
-4.Phone: your phone
-5.Address: your address
+1. Username: your name
+2. Email: your email
+3. Password: your password
+4. Phone: your phone
+5. Address: your address
