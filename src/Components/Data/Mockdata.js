@@ -57,7 +57,7 @@ export const mockdata = [
     loanId: "LN-A1005",
     loanType: "Vehicle Loan",
     amount: 650000,
-    status: "In Review",
+    status: "Rejected",
     city: "Jaipur",
     disbursalDate: null,
     applicationDate: "2025-01-12",
